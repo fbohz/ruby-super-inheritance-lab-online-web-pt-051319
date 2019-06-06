@@ -5,8 +5,10 @@ class ChattyStudent < Student
   end
   
   def raise_hand
-    super super super super super
-    super super super super super
+    counter = 0 
+    while counter < 10 
+    super
+    end 
   end 
   
 end   
